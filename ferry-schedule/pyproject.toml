@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ferry-schedule"
+version = "0.1.0"
+description = ""
+authors = ["Nick Heiner <nick.heiner+github@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ferry_schedule"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+beautifulsoup4 = "^4.12.2"
+requests = "^2.29.0"
+pytz = "^2023.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
