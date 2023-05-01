@@ -1,5 +1,4 @@
-"""A templated Fixie agent!
-
+"""
 Fixie docs:
     https://docs.fixie.ai
 
